@@ -5,7 +5,7 @@
           <img :src="product.imageUrl" class="card-img-top" alt="Product Image" loading="lazy">
           <div class="card-body">
             <h5 class="card-title">{{ product.title }}</h5>
-            <p class="card-text">Price: R{{ product.description }}</p>
+            <p class="card-text">Price: {{ product.description }}</p>
             <p class="card-text">{{ product.content }}</p>
             <button class="add-to-cart-btn" @click="addToCart(product)">Add to Cart</button>
           </div>
